@@ -152,6 +152,7 @@ import ErrorBoundary from './component/Day8/ErrorBoundary';
 import Car from './component/Day8/Car';
 import TryCatch from './component/Day8/TryCatch';
 import LifeCycle from './component/Day8/LifeCycle';
+import FunctionalLifeCycle from './component/Day8/FunctionalLifeCycle';
 export default function App() {
   return (
     <div>
@@ -169,6 +170,8 @@ export default function App() {
     {/* <TryCatch fruit="Onion"></TryCatch> */}
 
     <LifeCycle></LifeCycle>
+
+    <FunctionalLifeCycle></FunctionalLifeCycle>
 
     </div>
   );
